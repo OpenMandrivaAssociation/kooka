@@ -4,7 +4,7 @@
 
 Name:		kooka
 Version:	0.61
-Release:	0.%{git}.1
+Release:	0.%{git}.3
 License:	LGPLv2+
 Group:		Graphical desktop/KDE
 Summary:	Scan and OCR suite for KDE
@@ -12,6 +12,8 @@ Url:		https://projects.kde.org/kooka
 # From git
 Source:		%{name}-%{version}.git%{git}.tar.bz2
 Source1:	%{name}-lang.tar.bz2
+# ROSA's translation update (29.01.2013)
+Source2:	%{name}-ru.po
 BuildRequires:	kdelibs4-devel
 BuildRequires:	pkgconfig(libgphoto2)
 BuildRequires:	pkgconfig(libtiff-4)
@@ -73,6 +75,8 @@ Common files (languages etc) for KScan, a KDE scanner library.
 cat >> CMakeLists.txt << EOF
 add_subdirectory( po )
 EOF
+# Overwrite with ROSA's translation
+cp -f %{SOURCE2} po/ru/%{name}.po
 
 %build
 %cmake_kde4

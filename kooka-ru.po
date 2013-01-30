@@ -1,0 +1,2634 @@
+# translation of kooka.po to Russian
+# KDE3 - kdegraphics/kooka.po Russian translation.
+# Copyright (C) 2005 KDE Russian translation team.
+#
+# Dmitry Ilyin <widgetII@mail.ru>, 2001.
+# Andrey Cherepanov <sibskull@mail.ru>, 2001-2005.
+# Nickolai Shaforostoff <shafff@ukr.net>, 2004.
+# Alexander Potashev <aspotashev@gmail.com>, 2010.
+# Konstantin Golubev <kostiagol@yabdex.ru>, 2013.
+# Julia Dronova <juliette.tux@gmail.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: kooka\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-08-19 06:00+0200\n"
+"PO-Revision-Date: 2013-01-28 20:54+0300\n"
+"Last-Translator: Julia Dronova <juliette.tux@gmail.com>\n"
+"Language-Team: Русский <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n%10>"
+"=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Дмитрий Ильин,Андрей Черепанов"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "widgetII@mail.ru,sibskull@mail.ru"
+
+#. i18n: ectx: Menu (file)
+#: desktop/kookaui.rc:5
+msgid "&File"
+msgstr "&Файл"
+
+#. i18n: ectx: Menu (scan)
+#: desktop/kookaui.rc:22
+msgid "S&can"
+msgstr "&Сканирование"
+
+#. i18n: ectx: Menu (imgCanvas)
+#: desktop/kookaui.rc:37
+msgid "&Image"
+msgstr "&Изображение"
+
+#. i18n: ectx: Menu (settings)
+#: desktop/kookaui.rc:53
+#| msgid "&Settings"
+msgid "S&ettings"
+msgstr "&Настройки"
+
+#. i18n: ectx: ToolBar (imageToolBar)
+#: desktop/kookaui.rc:64
+msgid "Image Viewer Toolbar"
+msgstr "Панель инструментов просмотра изображения"
+
+#. i18n: ectx: ToolBar (scanToolBar)
+#: desktop/kookaui.rc:81
+msgid "Scanning Toolbar"
+msgstr "Панель инструментов сканирования"
+
+#: formatdialog.cpp:50
+msgid ""
+"<b>Bitmap Picture</b> is a widely used format for images under MS Windows. "
+"It is suitable for color, grayscale and line art images.<p>This format is "
+"widely supported but is not recommended, use an open format instead."
+msgstr ""
+"<b>Bitmap Picture</b> широко распространённый формат изображений используемый "
+"в MS Windows. "
+"Он используется для цветных, чёрно-белых изображений разной глубины.<p>Этот "
+"формат широко используется, однако мы рекомендуем использовать другой, "
+"открытый формат."
+
+#: formatdialog.cpp:58
+msgid ""
+"<b>Portable Bitmap</b>, as used by Netpbm, is an uncompressed format for "
+"line art (bitmap) images. Only 1 bit per pixel depth is supported."
+msgstr ""
+"<b>Portable Bitmap</b>, используемый Netpbm, не сжатый формат чёрно-белых "
+"растровых изображений. Поддерживается только одно-битовый режим."
+
+#: formatdialog.cpp:64
+msgid ""
+"<b>Portable Greymap</b>, as used by Netpbm, is an uncompressed format for "
+"grayscale images. Only 8 bit per pixel depth is supported."
+msgstr ""
+"<b>Portable Greymap</b>, используемый Netpbm, не сжатый формат чёрно-белых "
+"растровых изображений. Поддерживается только 8-и битовый режим."
+
+#: formatdialog.cpp:70
+msgid ""
+"<b>Portable Pixmap</b>, as used by Netpbm, is an uncompressed format for "
+"full color images. Only 24 bit per pixel RGB is supported."
+msgstr ""
+"<b>Portable Pixmap</b>, используемый Netpbm, не сжатый формат чёрно-белых "
+"растровых изображений. Поддерживается только 24-ёх битовый режим."
+
+#: formatdialog.cpp:76
+msgid ""
+"<b>PCX</b> is a lossless compressed format which is often supported by PC "
+"imaging applications, although it is rather old and unsophisticated.  It is "
+"suitable for color and grayscale images.<p>This format is not recommended, "
+"use an open format instead."
+msgstr ""
+"<b>PCX</b> Устаревший формат, поддерживает сжатие без потерь для цветных и "
+"чёрно-белых изображений.<p>Этот формат не рекомендуется для использования"
+
+#: formatdialog.cpp:84
+msgid ""
+"<b>X Bitmap</b> is often used by the X Window System to store cursor and "
+"icon bitmaps.<p>Unless required for this purpose, use a general purpose "
+"format instead."
+msgstr ""
+"<b>X Bitmap</b> используется для хранения изображений курсоров в X Window "
+"System.<p> "
+"Используйте его только если он точно нужен."
+
+#: formatdialog.cpp:90
+msgid ""
+"<b>X Pixmap</b> is often used by the X Window System for color icons and "
+"other images.<p>Unless required for this purpose, use a general purpose "
+"format instead."
+msgstr ""
+"<b>X Pixmap</b> используется для хранения изображений значков в X Window "
+"System.<p> "
+"Используйте его только если он точно нужен."
+
+#: formatdialog.cpp:96
+msgid ""
+"<b>Portable Network Graphics</b> is a lossless compressed format designed to "
+"be portable and extensible. It is suitable for any type of color or "
+"grayscale images, indexed or true color.<p>PNG is an open format which is "
+"widely supported."
+msgstr ""
+"<b>Portable Network Graphics</b> Формат изображений поддерживающий сжатие без "
+"потерь. Поддерживает цветные, чёрно-белые, индексированных и True Color "
+"цветов.<p>PNG открытый, расширяемый, широко используемый формат."
+
+#: formatdialog.cpp:104
+msgid ""
+"<b>JPEG</b> is a compressed format suitable for true color or grayscale "
+"images. It is a lossy format, so it is not recommended for archiving or for "
+"repeated loading and saving.<p>This is an open format which is widely "
+"supported."
+msgstr ""
+"<b>JPEG</b> Сжимаемый формат для цветных true color и чёрно-белых "
+"изображений. сжатие происходит с потерями качества и не рекомендуется для "
+"архивирования или многократного редактирования-сохранения.<p>Открытый, "
+"широкоиспользуемый стандарт."
+
+#: formatdialog.cpp:112
+msgid ""
+"<b>JPEG 2000</b> was intended as an update to the JPEG format, with the "
+"option of lossless compression, but so far is not widely supported. It is "
+"suitable for true color or grayscale images."
+msgstr ""
+"<b>JPEG 2000</b> это усовершенствованный формат JPEG, поддерживающий сжатие "
+"без потерь. Используется для цветных и чёрно-белых изображений. Формат менее "
+"распространён JPEG."
+
+#: formatdialog.cpp:119
+msgid ""
+"<b>Encapsulated PostScript</b> is derived from the PostScript&trade; page "
+"description language.  Use this format for importing into other "
+"applications, or to use with (e.g.) TeX."
+msgstr ""
+"<b>Encapsulated PostScript</b> формат основывающийся на подмножестве языков "
+"описания страницы PostScript&trade; . Полезен для импортирования в приложения "
+"использующие TeX."
+
+#: formatdialog.cpp:126
+msgid ""
+"<b>Truevision Targa</b> can store full color images with an alpha channel, "
+"and is used extensively by animation and video applications.<p>This format "
+"is not recommended, use an open format instead."
+msgstr ""
+"<b>Truevision Targa</b> может хранить цветные изображения и алфа-канал, "
+"используется в анимации и видео.<p>Этот формат не рекомендуется для "
+"использования, выберите свободный формат."
+
+#: formatdialog.cpp:133
+msgid ""
+"<b>Graphics Interchange Format</b> is a popular but patent-encumbered format "
+"often used for web graphics.  It uses lossless compression with up to 256 "
+"colors and optional transparency.<p>For legal reasons this format is not "
+"recommended, use an open format instead."
+msgstr ""
+"<b>Graphics Interchange Format</b> популярный в web графике формат, но "
+"ограждён патентами. Поддерживает сжатие без потерь для изображений с глубиной "
+"цвета до 256 цветов и прозрачностью.<p>Из-за патентов мы не рекомендуем его, "
+"лучше выберите свободный формат."
+
+#: formatdialog.cpp:141
+msgid ""
+"<b>Tagged Image File Format</b> is a versatile and extensible file format "
+"widely supported by imaging and publishing applications. It supports indexed "
+"and true color images with alpha transparency.<p>Because there are many "
+"variations, there may sometimes be compatibility problems. Unless required "
+"for use with other applications, use an open format instead."
+msgstr ""
+"<b>Tagged Image File Format</b> многоцелевой, расширяемый формат широко "
+"используемый в издательских приложениях. Поддерживает индексированные цвета и "
+"true color с альфа-каналом.<p>из-за того что существует множество вариаций "
+"этого формата, мы рекомендуем его использовать только если это действительно "
+"нужно, из-за возможных проблем совместимости."
+
+#: formatdialog.cpp:150
+msgid ""
+"<b>Multiple-image Network Graphics</b> is derived from the PNG standard and "
+"is intended for animated images.  It is an open format suitable for all "
+"types of images.<p>Images produced by a scanner will not be animated, so "
+"unless specifically required for use with other applications use PNG instead."
+msgstr ""
+"<b>Multiple-image Network Graphics</b> это ответвление стандарта PNG для "
+"хранения анимированных изображений. Этот формат поддерживает все типы "
+"изображения.<p>Сканированые изображения всё равно не будут анимированными, "
+"так что используйте лучше PNG."
+
+#: formatdialog.cpp:159
+msgid ""
+"This is the <b>Silicon Graphics</b> native image file format, supporting 24 "
+"bit true color images with optional lossless compression.<p>Unless "
+"specifically required, use an open format instead."
+msgstr ""
+"Это внутренний формат <b>Silicon Graphics</b>, поддерживающий цветные true "
+"color изображения и сжатие без потерь.<p>Используйте его только если точно "
+"знаете что делаете."
+
+#: formatdialog.cpp:185
+#| msgid "Kooka Save Assistant"
+msgid "Save Assistant"
+msgstr "Мастер сохранения изображения"
+
+#: formatdialog.cpp:185
+#| msgid "Save &Scan Parameters"
+msgid "Save Scan"
+msgstr "&Сохранить сканирования"
+
+#: formatdialog.cpp:212
+#, kde-format
+#| msgid ""
+#| "<B>Save Assistant</B><P>Select an image format to save the scanned image."
+msgid "<qt>Select a format to save the scanned image.<br>This is a <b>%1</b>."
+msgstr ""
+"<qt>Выберите формат для сохранения полученного изображения. <br>Это <b>%1</b>."
+
+#: formatdialog.cpp:222
+#| msgid "Format"
+msgid "File format:"
+msgstr "Формат файла:"
+
+#: formatdialog.cpp:300
+#| msgid "Image Information"
+msgid "Image sub-format:"
+msgstr "Субформат изображения:"
+
+#: formatdialog.cpp:315
+msgid "Only show recommended formats for this image type"
+msgstr "Показывать только рекомендованые форматы для этого типа изображения"
+
+#: formatdialog.cpp:323
+msgid "Always use this save format for this image type"
+msgstr "Всегда использовать этот формат для этого типа изображения"
+
+#: formatdialog.cpp:344
+#| msgid "Filename"
+msgid "File name:"
+msgstr "Имя файла:"
+
+#: formatdialog.cpp:357
+#| msgid "Set Zoom..."
+msgid "Select Format..."
+msgstr "Выбрать формат..."
+
+#: formatdialog.cpp:403
+#| msgid "-No format selected-"
+msgid "No format selected."
+msgstr "Формат не выбран."
+
+#: formatdialog.cpp:437
+msgid "No information is available for this format."
+msgstr "Нет информации по этому формату"
+
+#: imgprintdialog.cpp:67
+msgid "Image Printing"
+msgstr "Печать изображения"
+
+#: imgprintdialog.cpp:74 imgprintdialog.cpp:124
+msgid "Image Print Size"
+msgstr "Размер печатаемого изображения"
+
+#: imgprintdialog.cpp:78
+msgid "Scale to same size as on screen"
+msgstr "Масштабировать до такого размера, как на экране"
+
+#: imgprintdialog.cpp:80
+msgid "Screen scaling. That prints according to the screen resolution."
+msgstr ""
+"Печатать в таком же размере, как и на экране в соответствии с разрешением "
+"экрана."
+
+#: imgprintdialog.cpp:84
+msgid "Original size (calculate from scan resolution)"
+msgstr "Оригинальный размер (вычисляется из разрешения сканирования)"
+
+#: imgprintdialog.cpp:86
+msgid ""
+"Calculates the print size from the scan resolution. Enter the scan "
+"resolution in the dialog field below."
+msgstr ""
+"Вычисление размера изображения исходя из разрешения при сканировании. "
+"Введите значение разрешение при сканировании в поле внизу."
+
+#: imgprintdialog.cpp:90
+msgid "Scale image to custom dimension"
+msgstr "Масштабировать"
+
+#: imgprintdialog.cpp:91
+msgid ""
+"Set the print size yourself in the dialog below. The image is centered on "
+"the paper."
+msgstr ""
+"Установить собственный размер печатаемого изображения. Оно будет распечатано "
+"в центре страницы."
+
+#: imgprintdialog.cpp:95
+msgid "Scale image to fit to page"
+msgstr "Сканировать по размеру страницы"
+
+#: imgprintdialog.cpp:96
+msgid ""
+"Printout uses maximum space on the selected pager. Aspect ratio is "
+"maintained."
+msgstr ""
+"Изображение будет масштабировано по размеру бумаги. Пропорции изображения "
+"будут сохранены."
+
+#: imgprintdialog.cpp:106
+msgid "Resolutions"
+msgstr "Разрешение"
+
+#: imgprintdialog.cpp:110
+msgid "Generate low resolution PostScript (fast draft print)"
+msgstr "Генерировать PostScript низкого разрешения (быстрая черновая печать)"
+
+#: imgprintdialog.cpp:116
+#| msgid "Scan resolution (dpi) "
+msgid "Scan resolution (dpi):"
+msgstr "Разрешение сканирования (dpi):"
+
+#: imgprintdialog.cpp:118
+msgid " dpi"
+msgstr " dpi"
+
+#: imgprintdialog.cpp:128
+msgid "Image width:"
+msgstr "Ширина:"
+
+#: imgprintdialog.cpp:129 imgprintdialog.cpp:133
+msgid " mm"
+msgstr " мм"
+
+#: imgprintdialog.cpp:132
+msgid "Image height:"
+msgstr "Высота:"
+
+#: imgprintdialog.cpp:136
+msgid "Maintain aspect ratio"
+msgstr "Сохранять пропорции изображения"
+
+#: imgprintdialog.cpp:178
+#, kde-format
+msgid "Screen resolution: %1 dpi"
+msgstr "Разрешение экрана: %1 dpi"
+
+#: imgprintdialog.cpp:216
+msgid "Please specify a scan resolution larger than 0"
+msgstr "Укажите разрешение сканирования больше 0"
+
+#: imgprintdialog.cpp:221
+msgid ""
+"For custom printing, a valid size should be specified.\n"
+"At least one dimension is zero."
+msgstr ""
+"При печати в масштабе, указанном пользователем, должны быть даны \n"
+"правильные размеры. Как минимум один из размеров равен 0."
+
+#: imgsaver.cpp:62
+#, kde-format
+msgid ""
+"<qt>The folder<br><filename>%2</filename><br>does not exist and could not be "
+"created.<br><br>%1"
+msgstr ""
+"<qt>Папка<br><filename>%2</filename><br>не существует и не может быть "
+"создана.<br><br>%1"
+
+#: imgsaver.cpp:70
+msgid "Error creating directory"
+msgstr "Ошибка при создании директории"
+
+#: imgsaver.cpp:76
+#, kde-format
+#| msgid ""
+#| "The directory\n"
+#| "%1\n"
+#| " is not writeable;\n"
+#| "please check the permissions."
+msgid ""
+"<qt>The directory<br><filename>%1</filename><br> is not writable, please "
+"check the permissions."
+msgstr ""
+"<qt>Каталог<br><filename>%1</filename><br> недоступен для записи, пожалуйста, "
+"проверьте права доступа."
+
+#: imgsaver.cpp:295
+#| msgid "palleted color image (16 or 24 bit depth)"
+msgid "indexed color image (up to 8 bit depth)"
+msgstr "индексированное цветное изображение (глубина цвета до 8 бит)"
+
+#: imgsaver.cpp:299
+#| msgid "palleted gray scale image (16 bit depth)"
+msgid "gray scale image (up to 8 bit depth)"
+msgstr "изображение в оттенках серого (глубина цвета до 8 бит)"
+
+#: imgsaver.cpp:303
+msgid "lineart image (black and white, 1 bit depth)"
+msgstr "иллюстрация (черно-белое, 1-битовое изображение)"
+
+#: imgsaver.cpp:307
+#| msgid "palleted color image (16 or 24 bit depth)"
+msgid "high/true color image (more than 8 bit depth)"
+msgstr "Highcolor или TrueColor изображение (глубина цвета более 8 бит)"
+
+#: imgsaver.cpp:311
+#, kde-format
+#| msgid "Unknown image type"
+msgid "unknown image type %1"
+msgstr "неизвестный тип изображения %1"
+
+#: imgsaver.cpp:388
+msgid "Save OK"
+msgstr "Сохранено успешно"
+
+#: imgsaver.cpp:390
+#| msgid "Permission denied on file %1."
+msgid "Permission denied"
+msgstr "Доступ запрещён"
+
+#: imgsaver.cpp:392
+#| msgid "Filename"
+msgid "Bad file name"
+msgstr "Неправильное имя файла"
+
+#: imgsaver.cpp:394
+#| msgid " no space on device "
+msgid "No space left on device"
+msgstr "Недостаточно места на диске "
+
+#: imgsaver.cpp:396
+#, kde-format
+#| msgid " could not write image format "
+msgid "Cannot write image format '%1'"
+msgstr "Не удаётся сохранить изображение в формате '%1'"
+
+#: imgsaver.cpp:398
+#, kde-format
+#| msgid " can not write file using that protocol "
+msgid "Cannot write using protocol '%1'"
+msgstr "Не удаётся сохранить файл через протокол '%1'"
+
+#: imgsaver.cpp:400
+#| msgid " user canceled saving "
+msgid "User cancelled saving"
+msgstr "Сохранение прервано пользователем "
+
+#: imgsaver.cpp:402
+msgid "Cannot create directory"
+msgstr "Не возможно создать директорию"
+
+#: imgsaver.cpp:404
+msgid "Save failed"
+msgstr "Не удалось сохранить"
+
+#: imgsaver.cpp:406
+#| msgid "Scan Parameter"
+msgid "Bad parameter"
+msgstr "Неправильный параметр"
+
+#: imgsaver.cpp:408
+#, kde-format
+msgid "Unknown status %1"
+msgstr "Неизвестное состояние %1"
+
+#: imgsaver.cpp:491
+#, kde-format
+#| msgid ""
+#| "The filename you supplied has no file extension.\n"
+#| "Should the correct one be added automatically? "
+msgid ""
+"<qt><p>The file name you supplied has no file extension.<br>Should the "
+"original one be added?\n"
+"<p>This would result in the new file name <filename>%1</filename>"
+msgstr ""
+"<qt><p>Указанное имя файла не содержит расширения.<br>Добавить исходное "
+"расширение к имени файла?\n"
+"<p>Предлагаемый вариант: <filename>%1</filename>"
+
+#: imgsaver.cpp:494
+msgid "Extension Missing"
+msgstr "Расширение отсутствует"
+
+#: imgsaver.cpp:495
+msgid "Add Extension"
+msgstr "Добавить расширение"
+
+#: imgsaver.cpp:496
+msgid "Do Not Add"
+msgstr "Не добавлять"
+
+#: imgsaver.cpp:516
+msgid "Target already exists"
+msgstr "Целевой файл уже существует"
+
+#: imgsaver.cpp:532
+msgid "Unable to copy the file"
+msgstr "Не возможно скопировать файл"
+
+#: imgsaver.cpp:533
+msgid "Unable to rename the file"
+msgstr "Не возможно переименовать файл"
+
+#: imgsaver.cpp:534
+msgid "Error copying file"
+msgstr "Ошибка при копировании"
+
+#: imgsaver.cpp:535
+msgid "Error renaming file"
+msgstr "Ошибка переименования"
+
+#: imgsaver.cpp:536
+#, kde-format
+msgid "<qt><p>%1<br><filename>%3</filename><br><br>%2"
+msgstr "<qt><p>%1<br><filename>%3</filename><br><br>%2"
+
+#: kooka.cpp:77
+msgid "Ready"
+msgstr "Готово"
+
+#: kooka.cpp:116
+msgid "KDE Scanning"
+msgstr "Сканирование изображений в KDE"
+
+#: kooka.cpp:159
+#| msgid "Scale to W&idth"
+msgid "Scale to Width"
+msgstr "Масштабировать по ширине"
+
+#: kooka.cpp:167
+#| msgid "Scale to &Height"
+msgid "Scale to Height"
+msgstr "Масштабировать по высоте"
+
+#: kooka.cpp:175
+#| msgid "Original &Size"
+msgid "Original Size"
+msgstr "Оригинальный размер"
+
+#: kooka.cpp:182
+msgid "Set Zoom..."
+msgstr "Масштаб..."
+
+#: kooka.cpp:189
+#| msgid "Keep &Zoom Setting"
+msgid "Keep Zoom Setting"
+msgstr "Сохранять настройку масштаба"
+
+#: kooka.cpp:197
+#| msgid "Create From Selectio&n"
+msgid "New Image From Selection"
+msgstr "Создать из выделения"
+
+#: kooka.cpp:202
+#| msgid "Mirror Image &Vertically"
+msgid "Mirror Vertically"
+msgstr "Отразить изображение вертикально"
+
+#: kooka.cpp:208
+#| msgid "&Mirror Image Horizontally"
+msgid "Mirror Horizontally"
+msgstr "Отразить изображение горизонтально"
+
+#: kooka.cpp:217
+#| msgid "Rotate Image Counter-Clock&wise"
+msgid "Rotate Counter-Clockwise"
+msgstr "Повернуть против часовой стрелки"
+
+#: kooka.cpp:223
+#| msgid "&Rotate Image Clockwise"
+msgid "Rotate Clockwise"
+msgstr "Повернуть по часовой стрелке"
+
+#: kooka.cpp:229
+#| msgid "Rotate Image 180 &Degrees"
+msgid "Rotate 180 Degrees"
+msgstr "Повернуть на 180 градусов"
+
+#: kooka.cpp:237
+#| msgid "&Create Folder..."
+msgid "Create Folder..."
+msgstr "Создать папку..."
+
+#: kooka.cpp:242
+msgid "Open With"
+msgstr "Открыть с помощью"
+
+#: kooka.cpp:248
+#| msgid "&Save Image..."
+msgid "Save Image..."
+msgstr "Сохранить..."
+
+#: kooka.cpp:255
+#| msgid "&Import Image..."
+msgid "Import Image..."
+msgstr "Импорт..."
+
+#: kooka.cpp:260 kooka.cpp:638
+#| msgid "&Delete Image"
+msgid "Delete Image"
+msgstr "Удалить изображение"
+
+#: kooka.cpp:267 kooka.cpp:639
+#| msgid "&Delete Image"
+msgid "Rename Image"
+msgstr "Переименовать изображение"
+
+#: kooka.cpp:273 kooka.cpp:637
+#| msgid "&Unload Image"
+msgid "Unload Image"
+msgstr "Закрыть изображение"
+
+#: kooka.cpp:280
+msgid "Properties..."
+msgstr "Свойства"
+
+#: kooka.cpp:289
+#| msgid "Select Scan Device"
+msgid "Select Scan Device..."
+msgstr "Выбор устройства сканера..."
+
+#: kooka.cpp:293 kookaview.cpp:595
+#| msgid "Select Scan Device"
+msgid "Add Scan Device..."
+msgstr "Добавить сканер"
+
+#: kooka.cpp:299
+#| msgid "Scan Preview"
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: kooka.cpp:304
+#| msgid "Start OCR"
+msgid "Start Scan"
+msgstr "Начать сканирование"
+
+#: kooka.cpp:309
+msgid "Photocopy..."
+msgstr "Ксерокс..."
+
+#: kooka.cpp:314
+#| msgid "Scan Parameter"
+msgid "Scan Parameters..."
+msgstr "Параметры сканирования..."
+
+#: kooka.cpp:321
+#| msgid "&OCR Image..."
+msgid "OCR Image..."
+msgstr "Распознать текст из всего изображения..."
+
+#: kooka.cpp:325
+#| msgid "O&CR on Selection..."
+msgid "OCR Selection..."
+msgstr "Распознать текст из выделения..."
+
+#: kooka.cpp:329
+#| msgid "Save OCR Result Text"
+msgid "Save OCR Result Text..."
+msgstr "Сохранить результат распознавания..."
+
+#: kooka.cpp:334
+#| msgid "Show OCR Results"
+msgid "Spell Check OCR Result..."
+msgstr "Проверка орфографии распознанного текста"
+
+#: kooka.cpp:623
+#| msgid "&Unload Image"
+msgid "Unload Folder"
+msgstr "Закрыть папку"
+
+#: kooka.cpp:624
+#| msgid "New Folder"
+msgid "Delete Folder"
+msgstr "Удалить папку"
+
+#: kooka.cpp:625
+#| msgid "New Folder"
+msgid "Rename Folder"
+msgstr "Переименовать папку"
+
+#: kookagallery.cpp:50
+#| msgid "New Folder"
+msgid "Folder:"
+msgstr "Папка:"
+
+#: kookaimage.cpp:132
+msgid "Loading non-local images is not yet implemented"
+msgstr "Загрузка удалённых файлов не поддерживается"
+
+#: kookaimage.cpp:167
+#| msgid "Image Saving"
+msgid "Image loading failed"
+msgstr "Ошибка загрузки изображение"
+
+#: kookapref.cpp:67
+msgid "Preferences"
+msgstr "Настройки"
+
+#: kookapref.cpp:70
+msgid "General"
+msgstr "Общие"
+
+#: kookapref.cpp:70
+msgid "General Options"
+msgstr "Общие параметры"
+
+#: kookapref.cpp:71
+msgid "Startup"
+msgstr "Запуск"
+
+#: kookapref.cpp:71
+#| msgid "Startup"
+msgid "Startup Options"
+msgstr "Параметры запуска"
+
+#: kookapref.cpp:72
+msgid "Image Saving"
+msgstr "Сохранение изображений"
+
+#: kookapref.cpp:72
+#| msgid "Image Saving"
+msgid "Image Saving Options"
+msgstr "Параметры сохранения изображений"
+
+#: kookapref.cpp:73
+#| msgid "Thumbnails"
+msgid "Gallery & Thumbnails"
+msgstr "Галереи и миниатюры"
+
+#: kookapref.cpp:73
+#| msgid "Thumbnail View"
+msgid "Image Gallery and Thumbnail View"
+msgstr "Параметры галереи и миниатюр"
+
+#: kookapref.cpp:74 kookaview.cpp:326
+msgid "OCR"
+msgstr "OCR"
+
+#: kookapref.cpp:74 ocrbasedialog.cpp:87
+msgid "Optical Character Recognition"
+msgstr "Распознавание текста"
+
+#: kookapref.cpp:212
+#, kde-format
+msgid ""
+"<qt><p>Unable to create the directory<br><filename>%1</filename><br>for the "
+"Kooka gallery - %3..<p>Your document directory,<br><filename>%2</"
+"filename><br>will be used.<p>Check the document directory setting and "
+"permissions."
+msgstr ""
+"<qt><p>Не удалось создать каталог<br><filename>%1</filename><br>для "
+"галереи Kooka - %3..<p>Будет использован ваш каталог для документов,<br><"
+"filename>%2</"
+"filename><br>.<p>Проверьте настройки и права на запись."
+
+#: kookapref.cpp:227
+msgid "Error creating gallery"
+msgstr "Ошибка при создании галереи"
+
+#: kookapref.cpp:271
+#, kde-format
+msgid ""
+"<qt><p>An old Kooka gallery was found at<br><filename>%1</filename>.<p>The "
+"preferred new location is now<br><filename>%2</filename>.<p>Do you want to "
+"create a new gallery at the new location?"
+msgstr ""
+"<qt><p>Найдена старая галерея Kooka: <br><filename>%1</filename>.<p>"
+"Предлагаем использовать<br><filename>%2</filename>.<p>Хотите создать новую "
+"галерею?"
+
+#: kookapref.cpp:278
+#| msgid "Show Gallery"
+msgid "Create New Gallery"
+msgstr "Создать новую галерею"
+
+#: kookapref.cpp:287 kookapref.cpp:307
+#, kde-format
+msgid ""
+"<qt><p>Kooka will use the new gallery,<br><a href=\"file:%1\"><filename>%1</"
+"filename></a>.<p>If you wish to add the images from your old gallery,<br><a "
+"href=\"file:%2\"><filename>%2</filename></a>,<br>then you may do so by "
+"simply copying or moving the files."
+msgstr ""
+"<qt><p>Kooka будет использовать новую галерею,<br><a href=\"file:%1\"><"
+"filename>%1</filename></a>.<p>Если хотите добавить изображения из старой "
+"галереи,<br><a "
+"href=\"file:%2\"><filename>%2</filename></a>,<br>просто скопируйте или "
+"переместите нужные файлы."
+
+#: kookapref.cpp:294
+msgid "New Gallery Created"
+msgstr "Новая галерея создана"
+
+#: kookapref.cpp:314
+msgid "Old Gallery Exists"
+msgstr "Обнаружена старая галерея"
+
+#: kookascanparams.cpp:43
+msgid ""
+"<qt><b>Gallery Mode - No scanner selected</b><p>In this mode you can browse, "
+"manipulate and OCR images already in the gallery.<p><a href=\"a:1\">Select a "
+"scanner device</a> to perform scanning, or <a href=\"a:2\">add a device</a> "
+"if a scanner is not automatically detected."
+msgstr ""
+"<qt><b>Режим галереи - не выбран сканер</b><p>В этом режиме можно "
+"просматривать и редактировать файлы, а также включить распознавание ранее "
+"созданных файлов.<p><a href=\"a:1\">Выберите сканер</a> для сканирования, или "
+"<a href=\"a:2\">добавьте устройство</a>, "
+"если сканер не был обнаружен автоматически."
+
+#: kookaview.cpp:222
+msgid "Image View"
+msgstr "Просмотр изображений"
+
+#: kookaview.cpp:298
+msgid "Scan Preview"
+msgstr "Предварительный просмотр"
+
+#: kookaview.cpp:304
+msgid "OCR results will appear here"
+msgstr "Результаты распознавания появятся здесь"
+
+#: kookaview.cpp:320
+msgid "Scan"
+msgstr "Сканировать"
+
+#: kookaview.cpp:323 kookaview.cpp:604 kookaview.cpp:620 scangallery.cpp:128
+msgid "Gallery"
+msgstr "Галерея"
+
+#: kookaview.cpp:511
+#, kde-format
+msgid ""
+"<qt><p>There was a problem opening the scanner device.<br>Check that the "
+"scanner is connected and switched on, and that SANE support for it is "
+"correctly configured.<p>Trying to use scanner device: <b>%3</b><br>libkscan "
+"reported error: <b>%2</b><br>SANE reported error: <b>%1</b>"
+msgstr ""
+"<qt><p>Ошибка при открытии сканера.<br>Проверьте, подключен ли сканер и "
+"правильно ли настроен SANE.<p>Попытка использовать следующий сканер: <b>%3</b>"
+"<br>ошибка "
+"libkscan: <b>%2</b><br>ошибка SANE: <b>%1</b>"
+
+#: kookaview.cpp:569
+#| msgid "Select Scan Device"
+msgid "Add Scan Device"
+msgstr "Добавить сканер"
+
+#: kookaview.cpp:588
+msgid ""
+"<qt><p>No scanner devices are available.<p>If your scanner is a type that "
+"can be auto-detected by SANE, check that it is connected, switched on and "
+"configured correctly.<p>If the scanner cannot be auto-detected by SANE (this "
+"includes some network scanners), you need to specify the device to use.  Use "
+"the \"Add Scan Device\" option to enter the backend name and parameters, or "
+"see that dialog for more information."
+msgstr ""
+"<qt><p>Устройство не доступно.<p>Если SANE может автоматически определить "
+"ваш сканер, то он должен быть подключен, включен и правильно настроен.<p>"
+"Если сканер не определяется автоматически (это относится и к некоторым "
+"сетевым сканерам), укажите устройство сканера вручную.  Нажмите \"Добавить "
+"сканер\" и "
+"в диалоговом окне введите драйвер и параметры."
+
+#: kookaview.cpp:621
+msgid "No scanner connected"
+msgstr "Сканер не подключен"
+
+#: kookaview.cpp:678
+#| msgid "Font Type Selection"
+msgid "No selection"
+msgstr "Ничего не выбрано"
+
+#: kookaview.cpp:684
+#, kde-format
+#| msgid "Gallery Folders"
+msgid "Gallery folder %1"
+msgstr "Папка галереи %1"
+
+#: kookaview.cpp:684
+#, kde-format
+#| msgid "Loading %1"
+msgid "Gallery image %1"
+msgstr "Изображение галереи %1"
+
+#: kookaview.cpp:722
+#, kde-format
+msgid "Print %1"
+msgstr "Печать %1"
+
+#: kookaview.cpp:745
+msgid "Starting OCR on selection"
+msgstr "Распознавание текста из выделения"
+
+#: kookaview.cpp:753
+#| msgid "Starting OCR on the entire image"
+msgid "Starting OCR on the image"
+msgstr "Начинаю распознавание с изображения"
+
+#: kookaview.cpp:770
+#| msgid "GOCR engine"
+msgid "OCR finished"
+msgstr "Распознавание закончено"
+
+#: kookaview.cpp:777
+msgid "OCR has not been performed yet, or the engine has been changed."
+msgstr "Распознавание ещё не выполнялось или поменялся движок."
+
+#: kookaview.cpp:778
+msgid "OCR Spell Check not possible"
+msgstr "Проверка орфографии невозможна"
+
+#: kookaview.cpp:783
+#| msgid "Spell-Check"
+msgid "OCR Spell Check"
+msgstr "Проверка правописания"
+
+#: kookaview.cpp:910
+#, kde-format
+msgid ""
+"<qt><p>There was a problem during preview or scanning.<br>Check that the "
+"scanner is still connected and switched on, <br>and that media is loaded if "
+"required.<p>Trying to use scanner device: <b>%3</b><br>libkscan reported "
+"error: <b>%2</b><br>SANE reported error: <b>%1</b>"
+msgstr ""
+"<qt><p>Ошибка предварительного сканирования.<br>Проверьте, включен и "
+"подключен ли сканер, и загружен ли необходимый носитель.<p>Попытка "
+"использования "
+"сканера: <b>%3</b><br>Ошибка libkscan: <b>%2</b><br>Ошибка SANE: <b>%1</b>"
+
+#: kookaview.cpp:954
+msgid "Create new image from selection"
+msgstr "Создать новое изображение из выделения"
+
+#: kookaview.cpp:979
+msgid "Rotate image 90 degrees"
+msgstr "Повернуть на 90 градусов"
+
+#: kookaview.cpp:986
+msgid "Rotate image -90 degrees"
+msgstr "Повернуть на -90 градусов"
+
+#: kookaview.cpp:1016
+msgid "Mirroring image vertically"
+msgstr "Отразить вертикально"
+
+#: kookaview.cpp:1021
+msgid "Mirroring image horizontally"
+msgstr "Отразить горизонтально"
+
+#: kookaview.cpp:1026
+#| msgid "Mirroring image in both directions"
+msgid "Mirroring image both directions"
+msgstr "Отразить горизонтально и вертикально"
+
+#: kookaview.cpp:1069
+#, kde-format
+#| msgid "Loading %1"
+msgid "Loaded image %1"
+msgstr "Загружено изображение %1"
+
+#: kookaview.cpp:1070
+#| msgid "&Unload Image"
+msgid "Unloaded image"
+msgstr "Закрыть изображение"
+
+#: kookaview.cpp:1088
+#, kde-format
+msgid "Loading %1"
+msgstr "Загрузка %1"
+
+#: kookaview.cpp:1096
+msgid "Updating image"
+msgstr "Обновление изображения"
+
+#: kookaview.cpp:1102
+msgid "Cannot update image, it is read only"
+msgstr "Не удаётся сохранить изображение, режим \"только чтение\""
+
+#: kookaview.cpp:1280
+msgid "Other..."
+msgstr "Другое..."
+
+#: main.cpp:40
+msgid "Scanning, image gallery and OCR"
+msgstr "Сканирование, Галерея изображений и распознавание текста (OCR)"
+
+#: main.cpp:42
+msgid ""
+"Kooka provides access to scanner hardware using the <a href=\"http://www."
+"sane-project.org/\">SANE</a> library.\n"
+"\n"
+"Kooka allows you to scan, save and view in any image format that KDE "
+"supports, and can perform Optical Character Recognition using the open "
+"source <a href=\"http://jocr.sourceforge.net/\">GOCR</a> or <a href=\"http://"
+"www.gnu.org/software/ocrad/ocrad.html\">OCRAD</a> programs, or the "
+"commercial <a href=\"http://www.rerecognition.com/\">KADMOS</a> library."
+msgstr ""
+"Kooka предоставляет доступ к сканирующему оборудованию, используя"
+"библиотеки проекта <a href=\"http://www.sane-project.org/\">SANE</a>.\n"
+"\n"
+"Kooka предоставляет возможность сканирования, сохранения и просмотра"
+"результата в изображения любых форматов, поддерживаемых в KDE, предлагает"
+"распознавание с использованием открытых программ <a href=\"http://jocr."
+"sourceforge.net/\">GOCR</a>"
+"и <a href=\"http://www.gnu.org/software/ocrad/ocrad.html\">OCRAD</a>, а также"
+"коммерческой библиотеки <a href=\"http://www.rerecognition.com/\">KADMOS</a>."
+
+#: main.cpp:70
+msgid "(C) 2000-2010, the Kooka developers and contributors"
+msgstr "(C) 2000-2010, разработчики и контрибьюторы  Kooka"
+
+#: main.cpp:77
+msgid "Kooka"
+msgstr "Kooka"
+
+#: main.cpp:89
+msgid "Jonathan Marten"
+msgstr "Джонатан Мартен (Jonathan Marten)"
+
+#: main.cpp:89
+msgid "Current maintainer, KDE4 port"
+msgstr "Текущий мейнтейнер, порт KDE4"
+
+#: main.cpp:90
+msgid "Klaas Freitag"
+msgstr "Клаас Фрейтаг (Klaas Freitag)"
+
+#: main.cpp:90
+#| msgid "developer"
+msgid "Developer"
+msgstr "Разработчик"
+
+#: main.cpp:91
+msgid "Mat Colton"
+msgstr "Мэт Колтон (Mat Colton)"
+
+#: main.cpp:91
+#| msgid "graphics, web"
+msgid "Graphics, web"
+msgstr "графика,web"
+
+#: main.cpp:92
+msgid "Ivan Shvedunov"
+msgstr "Иван Шведунов (Ivan Shvedunov)"
+
+#: main.cpp:92
+msgid "Original kscan application"
+msgstr "Оригинальное приложение kscan"
+
+#: main.cpp:93
+msgid "Alex Kempshall"
+msgstr "Алекс Кемпшелл (Alex Kempshall)"
+
+#: main.cpp:93
+msgid "Photocopy facility"
+msgstr "Функция ксерокса"
+
+#: main.cpp:99
+#| msgid "The SANE compatible device specification (e.g. umax:/dev/sg0)"
+msgid "The SANE device specification (e.g. 'umax:/dev/sg0')"
+msgstr "Спецификация устройства SANE (напр., 'umax:/dev/sg0')"
+
+#: main.cpp:100
+msgid "Gallery mode - do not connect to scanner"
+msgstr "Режим галереи без подключения к сканеру"
+
+#: newscanparams.cpp:50
+#| msgid "&Load Scan Parameters"
+msgid "Edit Scan Parameters"
+msgstr "Настроить параметры сканирования"
+
+#: newscanparams.cpp:51
+msgid "Change the name and/or description of the scan parameter set."
+msgstr "Измените имя и/или описание параметров сканирования."
+
+#: newscanparams.cpp:55
+#| msgid "Save &Scan Parameters"
+msgid "Save Scan Parameters"
+msgstr "Сохранить параметры сканирования"
+
+#: newscanparams.cpp:56
+msgid "Enter a name and description for the new scan parameter set."
+msgstr "Введите имя и описание нового набора параметров."
+
+#: newscanparams.cpp:60
+msgid "Set name:"
+msgstr "Имя:"
+
+#: newscanparams.cpp:65
+msgid "Description:"
+msgstr "Описание:"
+
+#: ocrbasedialog.cpp:88
+msgid "Start OCR"
+msgstr "Распознать текст"
+
+#: ocrbasedialog.cpp:88
+msgid "Start the Optical Character Recognition process"
+msgstr "Запустить процесс распознавания текста в изображении"
+
+#: ocrbasedialog.cpp:89
+#| msgid "Start OCR"
+msgid "Stop OCR"
+msgstr "Остановить распознавание"
+
+#: ocrbasedialog.cpp:89
+#| msgid "Start the Optical Character Recognition process"
+msgid "Stop the Optical Character Recognition process"
+msgstr "Остановить процесс распознавания текста в изображении"
+
+#: ocrbasedialog.cpp:132
+#| msgid "Startup"
+msgid "Setup"
+msgstr "Настройка"
+
+#: ocrbasedialog.cpp:133
+#, kde-format
+#| msgid "Optical Character Recognition"
+msgid "Optical Character Recognition using %1"
+msgstr "Распознавание текста с помощью %1"
+
+#: ocrbasedialog.cpp:177
+msgid "Executable:"
+msgstr "Исполняемый файл:"
+
+#: ocrbasedialog.cpp:183
+#| msgid "Version: "
+msgid "Version:"
+msgstr "Версия: "
+
+#: ocrbasedialog.cpp:186
+msgid "unknown"
+msgstr "неизвестно"
+
+#: ocrbasedialog.cpp:219
+#| msgid "-no hint available-"
+msgid "No preview available"
+msgstr "Предварительный просмотр недоступен"
+
+#: ocrbasedialog.cpp:228
+#| msgid "-no hint available-"
+msgid "No information available"
+msgstr "Сведения недоступны"
+
+#: ocrbasedialog.cpp:231
+msgid "Source"
+msgstr "Источник"
+
+#: ocrbasedialog.cpp:232
+#| msgid "Image Information"
+msgid "Source Image Information"
+msgstr "Информация об исходном изображении"
+
+#: ocrbasedialog.cpp:251
+#| msgid "GOCR engine"
+msgid "OCR Engine"
+msgstr "Движок распознавания"
+
+#: ocrbasedialog.cpp:252
+#| msgid "Image Information"
+msgid "OCR Engine Information"
+msgstr "Информация об движке распознавания"
+
+#: ocrbasedialog.cpp:269
+msgid "Highlight misspelled words"
+msgstr "Подсвечивать слова с ошибками"
+
+#: ocrbasedialog.cpp:275
+#| msgid ""
+#| "\n"
+#| "Please check the configuration."
+msgid "Use the global spell configuration"
+msgstr "Использовать глобальные настройки проверки орфографии"
+
+#: ocrbasedialog.cpp:277
+#| msgid ""
+#| "\n"
+#| "Please check the configuration."
+msgid "Use custom spell configuration"
+msgstr "Использовать собственные настройки проверки орфографии"
+
+#: ocrbasedialog.cpp:279
+msgid "Custom Spell Configuration..."
+msgstr "Собственные настройки орфографии..."
+
+#: ocrbasedialog.cpp:291
+msgid "Start interactive spell check"
+msgstr "Начать интерактивную проверку орфографии"
+
+#: ocrbasedialog.cpp:297
+msgid ""
+"Custom spell settings above do not affect this spelling check, use the "
+"language setting in the dialog to change the dictionary language."
+msgstr ""
+"Собственные настройки проверки (выше) не влияют на эту проверку орфографии, "
+"чтобы сменить словарный язык, используйте языковые настройки диалога."
+
+#: ocrbasedialog.cpp:317
+#| msgid "Spell-Check"
+msgid "Spell Check"
+msgstr "Проверка правописания"
+
+#: ocrbasedialog.cpp:318
+#| msgid "Spell-checking"
+msgid "OCR Result Spell Checking"
+msgstr "Проверка правописания результатов распознавания"
+
+#: ocrbasedialog.cpp:329
+msgid "Retain temporary files"
+msgstr "Сохранить временные файлы"
+
+#: ocrbasedialog.cpp:332
+msgid "Verbose message output"
+msgstr "Подробный отчёт"
+
+#: ocrbasedialog.cpp:337
+msgid "Debugging"
+msgstr "Отладка"
+
+#: ocrbasedialog.cpp:338
+#| msgid "GOCR engine"
+msgid "OCR Debugging"
+msgstr "Отладка движка GOCR"
+
+#: ocrbasedialog.cpp:388
+#| msgid "%1 images"
+msgid "No image"
+msgstr "Нет изображения"
+
+#: ocrbasedialog.cpp:414
+#, kde-format
+#| msgid "image %1"
+msgid "Image: %1"
+msgstr "Изображение: %1"
+
+#: ocrbasedialog.cpp:414
+#, kde-format
+msgid "Selection: %1"
+msgstr "Выделение %1"
+
+#: ocrengine.cpp:111
+#| msgid ""
+#| "This version of Kooka was not compiled with KADMOS support.\n"
+#| "Please select another OCR engine in Kooka's options dialog."
+msgid ""
+"This version of Kooka is not compiled with KADMOS support.\n"
+"Please select another OCR engine in the configuration dialog."
+msgstr ""
+"Данная версия Kooka собрана без поддержки KADMOS.\n"
+"Укажите другой движок распознавания в диалоге настройки Kooka."
+
+#: ocrengine.cpp:116
+msgid ""
+"No OCR engine is configured.\n"
+"Please select and configure one in the OCR configuration dialog."
+msgstr ""
+"Движок распознавания не настроен.\n"
+"Укажите другой движок распознавания в диалоге настройки Kooka."
+
+#: ocrengine.cpp:127
+msgid "Configure OCR..."
+msgstr "Настроить распознавание"
+
+#: ocrengine.cpp:152
+msgid "None"
+msgstr "Нет"
+
+#: ocrengine.cpp:153
+msgid "GOCR"
+msgstr "GOCR"
+
+#: ocrengine.cpp:154
+#| msgid "OCR"
+msgid "OCRAD"
+msgstr "OCRAD"
+
+#: ocrengine.cpp:155
+msgid "Kadmos"
+msgstr "Kadmos"
+
+#: ocrengine.cpp:156 ocrgocrdialog.cpp:208 ocrocraddialog.cpp:231
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: ocrengine.cpp:182
+msgid "OCR is already running"
+msgstr "Распознавание уже запущено"
+
+#: ocrengine.cpp:266
+msgid "<qt>The following OCR temporary files are retained for debugging:<p>"
+msgstr ""
+"<qt>Следующие временные файлы распознавания сохранены для исследования "
+"ошибок:<p>"
+
+#: ocrengine.cpp:272
+#, kde-format
+msgid "<filename><a href=\"%1\">%2</a></filename><br>"
+msgstr "<filename><a href=\"%1\">%2</a></filename><br>"
+
+#: ocrengine.cpp:279
+msgid "OCR Temporary Files"
+msgstr "Временные файлы распознавания"
+
+#: ocrengine.cpp:320
+#| msgid "The OCR-process was stopped."
+msgid "The OCR process was stopped"
+msgstr "Процесс распознавания остановлен."
+
+#: ocrgocrdialog.cpp:96
+#| msgid "&Gray level"
+msgid "Gray level:"
+msgstr "Уровень серого:"
+
+#: ocrgocrdialog.cpp:101
+#| msgid ""
+#| "The numeric value gray pixels are \n"
+#| "considered to be black.\n"
+#| "\n"
+#| "Default is 160"
+msgid ""
+"The threshold value below which gray pixels are\n"
+"considered to be black.\n"
+"\n"
+"The default is 160."
+msgstr ""
+"Числовое значение, ниже которого серые точки \n"
+"рассматриваются как чёрные.\n"
+"\n"
+"По умолчанию: 160"
+
+#: ocrgocrdialog.cpp:105
+#| msgid "&Dust size"
+msgid "Dust size:"
+msgstr "Размер соринок:"
+
+#: ocrgocrdialog.cpp:110
+#| msgid ""
+#| "Clusters smaller than this value\n"
+#| "will be considered to be dust and \n"
+#| "removed from the image.\n"
+#| "\n"
+#| "Default is 10"
+msgid ""
+"Clusters smaller than this value\n"
+"will be considered to be dust, and\n"
+"removed from the image.\n"
+"\n"
+"The default is 10."
+msgstr ""
+"Объекты меньше этого значения\n"
+"рассматриваются как соринки \n"
+"и удаляются из изображения.\n"
+"\n"
+"Значение по умолчанию: 10"
+
+#: ocrgocrdialog.cpp:114
+#| msgid "&Space width"
+msgid "Space width:"
+msgstr "Межсимвольный интервал:"
+
+#: ocrgocrdialog.cpp:119
+#| msgid ""
+#| "Spacing between characters.\n"
+#| "\n"
+#| "Default is 0 what means autodetection"
+msgid ""
+"Spacing between characters.\n"
+"\n"
+"The default is 0 which means autodetection."
+msgstr ""
+"Интервал между символами.\n"
+"\n"
+"По умолчанию - 0, что означает автоопределение"
+
+#: ocrgocrdialog.cpp:134
+#| msgid ""
+#| "The path to the gocr binary is not configured yet.\n"
+#| "Please go to the Kooka configuration and enter the path manually."
+msgid ""
+"The path to the GOCR binary is not configured or is not valid.\n"
+"Please enter or check the path in the Kooka configuration."
+msgstr ""
+"Путь к программе GOCR не настроен или имеет недопустимое значение.\n"
+"Укажите путь вручную в диалоге настройки Kooka."
+
+#: ocrgocrdialog.cpp:136
+#| msgid "OCR Software Not Found"
+msgid "GOCR Software Not Found"
+msgstr "Программа распознавания текста GOCR не найдена"
+
+#: ocrgocrdialog.cpp:142 ocrocraddialog.cpp:230
+msgid "Not found"
+msgstr "Программа не найдена"
+
+#: ocrgocrdialog.cpp:213 ocrocraddialog.cpp:312
+#| msgid "Save Error"
+msgid "Error"
+msgstr "Ошибка"
+
+#: ocrgocrengine.cpp:84
+msgid ""
+"<qt><p><b>GOCR</b> (sometimes known as <b>JOCR</b>) is an open source OCR "
+"engine, originally started by Joerg&nbsp;Schulenburg and now with a team of "
+"active developers. <p>See <a href=\"http://jocr.sourceforge.net\">jocr."
+"sourceforge.net</a> for more information on GOCR."
+msgstr ""
+"<qt><p><b>GOCR</b> (известен также как <b>JOCR</b>) открытый движок "
+"распознавания текста OCR, разработана Joerg&nbsp;Schulenburg и поддерживаемый "
+"группой разработчиков. <p>Бодьше информации на сайте <a "
+"href=\"http://jocr.sourceforge.net\">jocr."
+"sourceforge.net</a>"
+
+#: ocrgocrengine.cpp:197
+#, kde-format
+msgid "<qt>Cannot read GOCR result file <filename>%1</filename><br/>%2"
+msgstr ""
+"<qt>Не удалось прочитать файл, поданный GOCR: <filename>%1</filename><br/>%2"
+
+#: ocrgocrengine.cpp:199
+#| msgid "Parse Problem"
+msgid "GOCR Result File Error"
+msgstr "Ошибка обработки итогового файла GOCR"
+
+#: ocrkadmosdialog.cpp:60 ocrkadmosdialog.cpp:190
+msgid "Czech Republic, Slovakia"
+msgstr "Чешская Республика, Словакия"
+
+#: ocrkadmosdialog.cpp:61 ocrkadmosdialog.cpp:194
+msgid "Great Britain, USA"
+msgstr "Великобритания, США"
+
+#: ocrkadmosdialog.cpp:102
+msgid "European Countries"
+msgstr "Европейские страны"
+
+#: ocrkadmosdialog.cpp:235 ocrkadmosdialog.cpp:312
+#| msgid ""
+#| "The classifier files for KADMOS could not be found.\n"
+#| "OCR with KADMOS will not be possible!\n"
+#| "\n"
+#| "Change the OCR engine in the preferences dialog."
+msgid ""
+"The classifier files for KADMOS could not be found.\n"
+"OCR with KADMOS will not be possible.\n"
+"\n"
+"Change the OCR engine in the preferences dialog."
+msgstr ""
+"Не удалось найти файлы классификаторов KADMOS.\n"
+"Распознавание текста через KADMOS невозможно.\n"
+"\n"
+"Измените движок распознавания в диалоге настроек."
+
+#: ocrkadmosdialog.cpp:238 ocrkadmosdialog.cpp:315
+msgid "Installation Error"
+msgstr "Ошибка установки"
+
+#: ocrkadmosdialog.cpp:264
+msgid "Please classify the font type and language of the text on the image:"
+msgstr "Укажите тип шрифта и язык распознаваемого текста:"
+
+#: ocrkadmosdialog.cpp:266
+msgid "Font Type Selection"
+msgstr "Выбор шрифта"
+
+#: ocrkadmosdialog.cpp:268
+msgid "Machine print"
+msgstr "Машинописный"
+
+#: ocrkadmosdialog.cpp:269
+msgid "Hand writing"
+msgstr "Рукописный"
+
+#: ocrkadmosdialog.cpp:270
+msgid "Norm font"
+msgstr "Типографский"
+
+#: ocrkadmosdialog.cpp:272
+msgid "Country"
+msgstr "Страна"
+
+#: ocrkadmosdialog.cpp:285
+msgid "OCR Modifier"
+msgstr "Настройки системы распознавания"
+
+#: ocrkadmosdialog.cpp:288
+msgid "Enable automatic noise reduction"
+msgstr "Включить автоматическое удаление шума"
+
+#: ocrkadmosdialog.cpp:289
+msgid "Enable automatic scaling"
+msgstr "Включить автоматическое масштабирование"
+
+#: ocrkadmosdialog.cpp:404
+#, kde-format
+msgid "Classifier file %1 does not exist"
+msgstr "Файл классификатора %1 не существует"
+
+#: ocrkadmosdialog.cpp:411
+#, kde-format
+msgid "Classifier file %1 is not readable"
+msgstr "Не удаётся прочесть файл классификатора %1"
+
+#: ocrkadmosengine.cpp:72
+#, kde-format
+msgctxt "%1 is one of the two following messages"
+msgid ""
+"<qt><p><b>Kadmos</b> is a commercial OCR/ICR library produced by "
+"reRecognition&nbsp;AG.</p><p>%1</p><p>See <a href=\"http://www.rerecognition."
+"com\">www.rerecognition.com</a> for more information on Kadmos.</p></qt>"
+msgstr ""
+"<qt><p><b>Kadmos</b> это коммерческая библиотека распознавания OCR/ICR, "
+"разработанная reRecognition&nbsp;AG.</p><p>%1</p><p>Больше информации на "
+"сайте <a href=\"http://www.rerecognition."
+"com\">www.rerecognition.com</a></p></qt>"
+
+#: ocrkadmosengine.cpp:79
+msgid "This version of Kooka is configured to use the Kadmos engine."
+msgstr "Эта версия Kooka настроена использовать движок Kadmos."
+
+#: ocrkadmosengine.cpp:81
+msgid ""
+"This version of Kooka is not configured for Kadmos.  The Kadmos libraries "
+"need to be installed, and Kooka needs to be rebuilt with the '--with-kadmos' "
+"option."
+msgstr ""
+"Эта версия Kooka не настроена на работу с Kadmos. Надо установить библиотеки "
+"Kadmos и пересобрать Kooka с опцией  '--with-kadmos' "
+
+#: ocrkadmosengine.cpp:99
+#, kde-format
+msgid ""
+"The classifier file necessary for OCR cannot be loaded: %1;\n"
+"OCR with the KADMOS engine is not possible."
+msgstr ""
+"Не удаётся загрузить необходимый файл классификатора для распознавания: %1\n"
+"Распознавание через движок KADMOS невозможно."
+
+#: ocrkadmosengine.cpp:101
+msgid "KADMOS Installation Problem"
+msgstr "Ошибка установки KADMOS"
+
+#: ocrkadmosengine.cpp:113
+#, kde-format
+#| msgid "The KADMOS OCR system could not be started:\n"
+msgid ""
+"The KADMOS OCR system could not be started:\n"
+"%1\n"
+"Please check the configuration."
+msgstr ""
+"Не удаётся запустить систему распознавания KADMOS:\n"
+"%1\n"
+"Проверьте настройки."
+
+#: ocrkadmosengine.cpp:117
+msgid "KADMOS Failure"
+msgstr "Ошибка KADMOS"
+
+#: ocrocraddialog.cpp:103
+#| msgid ""
+#| "The path to the gocr binary is not configured yet.\n"
+#| "Please go to the Kooka configuration and enter the path manually."
+msgid ""
+"The path to the OCRAD binary is not configured or is not valid.\n"
+"Please enter or check the path in the Kooka configuration."
+msgstr ""
+"Путь к программе OCRAD не установлен.\n"
+"Укажите путь вручную в диалоге настройки Kooka."
+
+#: ocrocraddialog.cpp:105
+#| msgid "OCR Software Not Found"
+msgid "OCRAD Binary Not Found"
+msgstr "Программа распознавания текста OCRAD не найдена"
+
+#: ocrocraddialog.cpp:117
+#| msgid "OCRAD layout analysis mode: "
+msgid "Layout analysis mode:"
+msgstr "Режим анализа расположения:"
+
+#: ocrocraddialog.cpp:121
+msgid "No Layout Detection"
+msgstr "Без обнаружения областей"
+
+#: ocrocraddialog.cpp:124
+#| msgid "No Layout Detection"
+msgid "Layout Detection"
+msgstr "Обнаружение областей"
+
+#: ocrocraddialog.cpp:128
+msgid "Column Detection"
+msgstr "Определение колонки"
+
+#: ocrocraddialog.cpp:129
+msgid "Full Layout Detection"
+msgstr "Полное обнаружение областей"
+
+#: ocrocraddialog.cpp:141
+msgid "Character set:"
+msgstr "Набор символов:"
+
+#: ocrocraddialog.cpp:144 ocrocraddialog.cpp:165 ocrocraddialog.cpp:186
+msgid "(default)"
+msgstr "(по умолчанию)"
+
+#: ocrocraddialog.cpp:162
+#| msgid "&File"
+msgid "Filter:"
+msgstr "Фильтр:"
+
+#: ocrocraddialog.cpp:183
+msgid "Transform:"
+msgstr "Преобразование:"
+
+#: ocrocraddialog.cpp:204
+msgid "Invert input"
+msgstr "Инвертировать ввод"
+
+#: ocrocraddialog.cpp:211
+msgid "Set threshold"
+msgstr "Установить порог"
+
+#: ocrocraddialog.cpp:215
+msgid "Threshold"
+msgstr "Порог"
+
+#: ocrocradengine.cpp:70
+msgid ""
+"<qt><p><b>OCRAD</b> is an free software OCR engine by Antonio&nbsp;Diaz, "
+"part of the GNU&nbsp;Project. <p>Images for OCR should be scanned in black/"
+"white (lineart) mode. Best results are achieved if the characters are at "
+"least 20&nbsp;pixels high.  Problems may arise, as usual, with very bold or "
+"very light or broken characters, or with merged character groups.<p>See <a "
+"href=\"http://www.gnu.org/software/ocrad/ocrad.html\">www.gnu.org/software/"
+"ocrad/ocrad.html</a> for more information on OCRAD."
+msgstr ""
+"<qt><p><b>OCRAD</b> это открытый движок распознавания текста OCR, написанный "
+"Antonio&nbsp;Diaz. Он является частью проекта GNU&nbsp;Project. <p>"
+"Изображения для него должны сканироваться в чёрно-белом однобитовом режиме. "
+"Лучшего результата можно добиться если буквы будут не меньше 20&nbsp;пикселей "
+"в высоту. Проблемы могут быть с очень тонкими, очень светлыми и разорванными "
+"или совмещёнными буквами.<p>Подробнее на сайте проекта: <a "
+"href=\"http://www.gnu.org/software/ocrad/ocrad.html\">www.gnu.org/software/"
+"ocrad/ocrad.html</a>"
+
+#: ocrocradengine.cpp:206
+#, kde-format
+msgid ""
+"<qt>Running the OCRAD process (<filename>%1</filename>) %2 with exit status "
+"%3.<br>More information may be available in its <A HREF=\"%4\">standard "
+"output</A> or <A HREF=\"%5\">standard error</A> log files."
+msgstr ""
+"<qt>Запущен процесс OCRAD (<filename>%1</filename>) %2 с кодом завершения"
+"%3.<br>Более подробную информацию можно найти в файлах журнала "
+"<A HREF=\"%4\">стандартного вывода</A> или <A HREF=\"%5\">стандартного вывода "
+"ошибок</A>."
+
+#: ocrocradengine.cpp:213
+#| msgid "ocrad"
+msgid "crashed"
+msgstr "Аварийно завершился"
+
+#: ocrocradengine.cpp:213
+msgid "failed"
+msgstr "Сбой"
+
+#: ocrocradengine.cpp:217
+msgid "OCR Command Failed"
+msgstr "Сбой команды распознавания"
+
+#: ocrocradengine.cpp:228
+#, kde-format
+#| msgid "Parsing of the OCR Result File failed:"
+msgid ""
+"Parsing the OCRAD result file failed\n"
+"%1"
+msgstr ""
+"Ошибка обработки файла результата распознавания:\n"
+"%1"
+
+#: ocrocradengine.cpp:229
+#| msgid "Parse Problem"
+msgid "OCR Result Parse Problem"
+msgstr "Ошибка обработки результата распознавания"
+
+#: ocrocradengine.cpp:318
+#, kde-format
+#| msgid "The orf %1 does not exist."
+msgid "File '%1' does not exist"
+msgstr "Файл «%1» не существует"
+
+#: ocrocradengine.cpp:320
+#, kde-format
+msgid "File '%1' unreadable"
+msgstr "Файл '%1' нечитаем"
+
+#: ocrocradengine.cpp:322
+#, kde-format
+msgid "Cannot open file '%1'"
+msgstr "Невозможно открыть файл '%1'"
+
+#: ocrresedit.cpp:155
+msgid "Save OCR Result Text"
+msgstr "Сохранить результат распознавания"
+
+#: ocrresedit.cpp:161
+#, kde-format
+msgid "<qt>Unable to save the OCR results file<br><filename>%1</filename>"
+msgstr ""
+"<qt>Не удалось сохранить результат распознавания в файл<br><filename>%1<"
+"/filename>"
+
+#: ocrresedit.cpp:163
+#, kde-format
+msgid "<br>%1"
+msgstr "<br>%1"
+
+#: ocrresedit.cpp:165
+#| msgid "Show OCR Results"
+msgid "Error saving OCR results"
+msgstr "Ошибка сохранения результатов распознавания"
+
+#: photocopyprintdialogpage.cpp:60
+msgid "PhotoCopier"
+msgstr "Ксерокс"
+
+#: photocopyprintdialogpage.cpp:67
+msgid "Print options"
+msgstr "Параметры печати"
+
+#: photocopyprintdialogpage.cpp:71
+msgid "Copies: "
+msgstr "Копий:"
+
+#: photocopyprintdialogpage.cpp:88
+#, kde-format
+msgid "Scanner Settings: %1"
+msgstr "Настройки сканера: %1"
+
+#: photocopyprintdialogpage.cpp:91
+#| msgid "Scan Preview"
+msgid "Scan size:"
+msgstr "Размер сканирования:"
+
+#: prefspages.cpp:80
+msgid "Hidden Messages"
+msgstr "Скрытые сообщения"
+
+#: prefspages.cpp:84
+msgid ""
+"Use this button to reenable all messages and questions which\n"
+"have been hidden by using \"Don't ask me again\"."
+msgstr ""
+"Нажмите чтобы видеть скрытые сообщения и вопросы, которые\n"
+"были спрятаны после нажатия \"Не спрашивать опять\""
+
+#: prefspages.cpp:87
+msgid "Enable Messages/Questions"
+msgstr "Включить сообщения/вопросы"
+
+#: prefspages.cpp:125
+msgid "Query network for available scanners"
+msgstr "Поиск доступных сканеров в сети"
+
+#: prefspages.cpp:126
+msgid ""
+"Check this if you want a network query for available scanners.\n"
+"Note that this does not mean a query over the entire network but only the "
+"stations configured for SANE."
+msgstr ""
+"Выберите эту опцию, если вы хотите осуществить поиск доступных сетевых "
+"сканеров.\n"
+"Примечание: поиск будет осуществляться не по всем компьютерам сети, а только "
+"по компьютерам, настроенным для работы с SANE."
+
+#: prefspages.cpp:131
+#| msgid "Show the scanner selection box on next startup"
+msgid "Show the scanner selection dialog"
+msgstr "Показать диалог выбора сканера"
+
+#: prefspages.cpp:132
+#| msgid "Show the scanner selection box on next startup"
+msgid "Check this to show the scanner selection dialog on startup."
+msgstr "Показать диалог выбора сканера при запуске"
+
+#: prefspages.cpp:137
+#| msgid "Load the last image into the viewer on startup"
+msgid "Load the last selected image into the viewer"
+msgstr "Загрузить последнее выбранное изображение"
+
+#: prefspages.cpp:138
+#| msgid ""
+#| "Check this if you want Kooka to load the last selected image into the "
+#| "viewer on startup.\n"
+#| "If your images are large, that might slow down Kooka's start."
+msgid ""
+"Check this if you want Kooka to load the last selected image into the viewer "
+"on startup.\n"
+"If your images are large, that might slow down Kooka's startup."
+msgstr ""
+"При выборе этой опции программа при запуске загрузит последнее открытое "
+"изображение.\n"
+"Если размер этого изображения большой, запуск программы может замедлиться."
+
+#: prefspages.cpp:170
+#| msgid "Always display image save assistant"
+msgid "Always use the Save Assistant"
+msgstr "Всегда использовать мастер сохранения изображения"
+
+#: prefspages.cpp:172
+#| msgid ""
+#| "Check this if you want to see the image save assistant even if there is a "
+#| "default format for the image type."
+msgid ""
+"Check this if you want to always use the image save assistant, even if there "
+"is a default format for the image type."
+msgstr ""
+"Включите эту опцию, если хотите всегда использовать мастер сохранения "
+"изображения, даже при наличии настройки формата файла по умолчанию."
+
+#: prefspages.cpp:177
+#| msgid "Ask for filename when saving file"
+msgid "Ask for filename when saving"
+msgstr "Запрашивать имя файла при сохранении"
+
+#: prefspages.cpp:179
+#| msgid ""
+#| "Check this if you want to enter a filename when an image has been scanned."
+msgid "Check this if you want to enter a file name when scanning an image."
+msgstr ""
+"Отметьте эту опцию чтобы указывать каждый раз имя файла для сканируемого "
+"изображения."
+
+#: prefspages.cpp:189
+msgid "Before the scan starts"
+msgstr "Перед началом сканирования"
+
+#: prefspages.cpp:192
+#| msgid ""
+#| "Check this if you want to enter a filename when an image has been scanned."
+msgid "Check this if you want to enter the file name before scanning starts."
+msgstr "Отметьте эту опцию чтобы указывать имя файла перед сканированием."
+
+#: prefspages.cpp:197
+msgid "After the scan is finished"
+msgstr "После завершения сканирования"
+
+#: prefspages.cpp:200
+#| msgid ""
+#| "Check this if you want to enter a filename when an image has been scanned."
+msgid ""
+"Check this if you want to enter the file name after scanning has finished."
+msgstr "Отметьте эту опцию чтобы указывать имя файла после сканирования."
+
+#: prefspages.cpp:232
+#| msgid "Gallery"
+msgid "Image Gallery"
+msgstr "Галерея"
+
+#: prefspages.cpp:237
+#| msgid "Show Recent Gallery Folders"
+msgid "Show recent folders:"
+msgstr "Показывать последние папки:"
+
+#: prefspages.cpp:241
+#| msgid "Not found"
+msgid "Not shown"
+msgstr "Не показано"
+
+#: prefspages.cpp:242
+msgid "At top"
+msgstr "На верху"
+
+#: prefspages.cpp:243
+msgid "At bottom"
+msgstr "Внизу"
+
+#: prefspages.cpp:249
+msgid "Allow click-to-rename"
+msgstr "Разрешить переименование по щелчку"
+
+#: prefspages.cpp:250
+msgid ""
+"Check this if you want to be able to rename gallery items by clicking on "
+"them (otherwise, use the \"Rename\" menu option)"
+msgstr ""
+"Включите, если хотите разрешить переименование элементов по щелчку мыши "
+"(иначе только кнопкой \"Переименовать\")"
+
+#: prefspages.cpp:257
+msgid "Thumbnail View"
+msgstr "Просмотр уменьшенных копий"
+
+#: prefspages.cpp:262
+#| msgid "Select background image:"
+msgid "Use a custom background image"
+msgstr "Выберите фоновое изображение:"
+
+#: prefspages.cpp:270
+#| msgid "Image"
+msgid "Image:"
+msgstr "Изображение:"
+
+#: prefspages.cpp:285
+msgid "Preview size:"
+msgstr "Размер предпросмотра:"
+
+#: prefspages.cpp:375
+#| msgid "GOCR engine"
+msgid "OCR Engine:"
+msgstr "движок OCR:"
+
+#: prefspages.cpp:385
+msgid "Engine executable:"
+msgstr "Исполняемый файл движка:"
+
+#: prefspages.cpp:450
+msgid "No OCR engine is selected. Select and configure one to perform OCR."
+msgstr ""
+"Движок распознавания не выбран.Укажите и настройте другой движок "
+"распознавания в диалоге настройки Kooka."
+
+#: prefspages.cpp:475
+#, kde-format
+#| msgid "Unknown image type"
+msgid "Unknown engine %1."
+msgstr "Неизвестный движок %1."
+
+#: prefspages.cpp:491
+#, kde-format
+#| msgid ""
+#| "The path does not lead to a valid binary.\n"
+#| "Please check your installation and/or install the program."
+msgid ""
+"<qt>The path <filename>%1</filename> is not a valid binary.\n"
+"Please check the path and install the program if necessary."
+msgstr ""
+"<qt>Путь <filename>%1</filename> указывает на недопустимый исполняемый файл.\n"
+"Проверьте путь и установите программу, если необходимо."
+
+#: prefspages.cpp:494
+#| msgid "OCR Software Not Found"
+msgid "OCR Engine Not Found"
+msgstr "Движок распознавания текста не найден"
+
+#: prefspages.cpp:502
+#, kde-format
+#| msgid ""
+#| "The program exists, but is not executable.\n"
+#| "Please check your installation and/or install the binary properly."
+msgid ""
+"<qt>The program <filename>%1</filename> exists, but is not executable.\n"
+"Please check the path and permissions, and/or reinstall the program if "
+"necessary."
+msgstr ""
+"<qt>Программа <filename>%1</filename> существует, но не является исполняемым "
+"файлом.\n"
+"Измените его атрибуты и/или правильно установите программу."
+
+#: prefspages.cpp:505
+#| msgid "OCR Software Not Executable"
+msgid "OCR Engine Not Executable"
+msgstr "Движок распознавания текста не является исполняемым файлом"
+
+#: scangallery.cpp:88
+msgid "Name"
+msgstr "Имя"
+
+#: scangallery.cpp:89
+msgid "Size"
+msgstr "Размер"
+
+#: scangallery.cpp:90
+msgid "Format"
+msgstr "Формат"
+
+#: scangallery.cpp:170
+msgid "Kooka Gallery"
+msgstr "Галерея"
+
+#: scangallery.cpp:363
+msgid "empty"
+msgstr "пусто"
+
+#: scangallery.cpp:366
+#, kde-format
+#| msgid "one item"
+#| msgid_plural "%1 items"
+msgid "one image"
+msgid_plural "%1 images"
+msgstr[0] "%1 изображение"
+msgstr[1] "%1 изображения"
+msgstr[2] "%1 изображений"
+msgstr[3] "одно изображение"
+
+#: scangallery.cpp:367
+#, kde-format
+#| msgid "one item"
+#| msgid_plural "%1 items"
+msgid "one file"
+msgid_plural "%1 files"
+msgstr[0] "%1 файл"
+msgstr[1] "%1 файла"
+msgstr[2] "%1 файлов"
+msgstr[3] "1 файл"
+
+#: scangallery.cpp:373
+#, kde-format
+#| msgid "one item"
+#| msgid_plural "%1 items"
+msgid "one file, "
+msgid_plural "%1 files, "
+msgstr[0] "%1 файл. "
+msgstr[1] "%1 файла, "
+msgstr[2] "%1 файлов, "
+msgstr[3] "1 файл, "
+
+#: scangallery.cpp:374
+#, kde-format
+#| msgid "one item"
+#| msgid_plural "%1 items"
+msgid "one image, "
+msgid_plural "%1 images, "
+msgstr[0] "%1 изображение, "
+msgstr[1] "%1 изображения, "
+msgstr[2] "%1 изображений, "
+msgstr[3] "1 изображение, "
+
+#: scangallery.cpp:376
+#, kde-format
+#| msgid "New Folder"
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] "%1 папка"
+msgstr[1] "%1 папки"
+msgstr[2] "%1 папок"
+msgstr[3] "1 папка"
+
+#: scangallery.cpp:415
+#, kde-format
+#| msgid "%1 x %2"
+msgid " %1 x %2"
+msgstr " %1 x %2"
+
+#: scangallery.cpp:562
+msgid ""
+"You entered a file extension that differs from the existing one. That is not "
+"yet possible. Converting 'on the fly' is planned for a future release.\n"
+"Kooka corrects the extension."
+msgstr ""
+"Вы указали расширение, которое отличается от оригинального.В этой версии "
+"преобразование формата не реализовано. Преобразование формата появится в "
+"будущих версиях.\n"
+"Kooka исправит расширение."
+
+#: scangallery.cpp:564
+msgid "On the Fly Conversion"
+msgstr "Преобразование формата"
+
+#: scangallery.cpp:659
+#| msgid "Available image formats:"
+msgid "Not a valid image format"
+msgstr "Не правильный формат изображения"
+
+#: scangallery.cpp:696
+#, kde-format
+msgid "Sub-image %1"
+msgstr "Доп.изображение %1"
+
+#: scangallery.cpp:723
+#, kde-format
+msgid "<qt><p>Unable to load the image<br><filename>%2</filename><br><br>%1"
+msgstr ""
+"<qt><p>Невозможно загрузить файл изображения<br><filename>%2</filename><br><"
+"br>%1"
+
+#: scangallery.cpp:730
+#| msgid "Save Error"
+msgid "Image Load Error"
+msgstr "Ошибка загрузки"
+
+#: scangallery.cpp:818
+#, kde-format
+msgid "<qt>Unable to update the image<br><filename>%2</filename><br><br>%1"
+msgstr ""
+"<qt>Невозможно обновить изображение<br><filename>%2</filename><br><br>%1"
+
+#: scangallery.cpp:825
+msgid "Save Error"
+msgstr "Ошибка сохранения"
+
+#: scangallery.cpp:851
+msgid "Incoming/"
+msgstr "Входящие/"
+
+#: scangallery.cpp:893
+#, kde-format
+msgid "<qt>Could not save the image<br><filename>%2</filename><br><br>%1"
+msgstr ""
+"<qt>Не возможно сохранить изображение<br><filename>%2</filename><br><br>%1"
+
+#: scangallery.cpp:896
+#| msgid "Save Error"
+msgid "Image Save Error"
+msgstr "Ошибка сохранения изображения"
+
+#: scangallery.cpp:976
+msgid "All Files"
+msgstr "Все файлы"
+
+#: scangallery.cpp:1002
+msgid "Import Image File to Gallery"
+msgstr "Импорт файла изображения в галерею"
+
+#: scangallery.cpp:1118
+#, kde-format
+msgid ""
+"<qt>Do you really want to permanently delete the folder<br><filename>%1</"
+"filename><br>and all of its contents? It cannot be restored."
+msgstr ""
+"<qt>Вы действительно хотите удалить папку<br><filename>%1</"
+"filename><br>и все её элементы?\n"
+"После этого оно не может быть восстановлено!"
+
+#: scangallery.cpp:1125
+#, kde-format
+msgid ""
+"<qt>Do you really want to permanently delete the image<br><filename>%1</"
+"filename>?<br>It cannot be restored."
+msgstr ""
+"<qt>Вы хотите удалить изображение из галереи?<br><filename>%1</"
+"filename>?<br>После этого оно не может быть восстановлено!"
+
+#: scangallery.cpp:1132
+#| msgid "Delete Collection Item"
+msgid "Delete Gallery Item"
+msgstr "Удалить элемент галереи"
+
+#: scangallery.cpp:1142
+#, kde-format
+msgid ""
+"<qt>Could not delete the image or folder<br><filename>%2</filename><br><br>%1"
+msgstr "<qt>Не возможно удалить<br><filename>%2</filename><br><br>%1"
+
+#: scangallery.cpp:1145
+msgid "File Delete Error"
+msgstr "Ошибка удаления файла"
+
+#: scangallery.cpp:1177
+msgid "New Folder"
+msgstr "Новая папка"
+
+#: scangallery.cpp:1178
+#| msgid "Please enter a name for the new folder:"
+msgid "Name for the new folder:"
+msgstr "Введите имя новой папки:"
+
+#: scanparamsdialog.cpp:54
+#| msgid "Scan Parameter"
+msgid "Scan Parameters"
+msgstr "Параметры сканирования"
+
+#: scanparamsdialog.cpp:72
+#| msgid "Save &Scan Parameters"
+msgid "Saved scan parameter sets:"
+msgstr "Сохранённый набор параметров сканирования:"
+
+#: scanparamsdialog.cpp:76
+#| msgid "ocrad"
+msgid "Load"
+msgstr "Загрузить"
+
+#: scanparamsdialog.cpp:78
+msgid "Load the selected scan parameter set to use as scanner settings"
+msgstr "Загрузить выбранный набор параметров сканирования"
+
+#: scanparamsdialog.cpp:81
+#| msgid "&Save Image..."
+msgid "Save..."
+msgstr "Сохранить..."
+
+#: scanparamsdialog.cpp:83
+msgid "Save the current scanner settings as a new scan parameter set"
+msgstr "Сохранить текущие параметры сканирования как новый набор"
+
+#: scanparamsdialog.cpp:86
+#| msgid "&Delete Image"
+msgid "Delete"
+msgstr "Удалить"
+
+#: scanparamsdialog.cpp:88
+msgid "Delete the selected scan parameter set"
+msgstr "Удалить выбранный набор параметров"
+
+#: scanparamsdialog.cpp:91
+msgid "Edit..."
+msgstr "Редактировать..."
+
+#: scanparamsdialog.cpp:93
+msgid "Change the name or description of the selected scan parameter set"
+msgstr "Изменить имя или описание выбранного набора параметров"
+
+#: scanparamsdialog.cpp:102
+msgid "-"
+msgstr "-"
+
+#: scanparamsdialog.cpp:130
+#| msgid "-No format selected-"
+msgid "No save set selected."
+msgstr "Набор параметров не выбран"
+
+#: scanparamsdialog.cpp:192
+#, kde-format
+msgid "%1, %2 dpi"
+msgstr "%1, %2 точек на дюйм"
+
+#: scanparamsdialog.cpp:271
+#, kde-format
+#| msgid ""
+#| "Do you really want to delete the folder %1\n"
+#| "and all the images inside?"
+msgid "<qt>Do you really want to delete the set '<b>%1</b>'?"
+msgstr "<qt>Удалить набор «<b>%1</b>»?"
+
+#: scanparamsdialog.cpp:272
+#| msgid "Scan Parameter"
+msgid "Delete Scan Parameter Set"
+msgstr "Удалить набор параметров сканирования"
+
+#: thumbview.cpp:106
+msgid "Thumbnails"
+msgstr "Миниатюры"
+
+#: thumbview.cpp:119
+msgid "Preview Size"
+msgstr "Размер области предварительного просмотра"
+
+#: thumbview.cpp:409
+msgid "Very Large"
+msgstr "Очень большой"
+
+#: thumbview.cpp:410
+#| msgid "Image"
+msgid "Large"
+msgstr "Большой"
+
+#: thumbview.cpp:411
+msgid "Medium"
+msgstr "Средний"
+
+#: thumbview.cpp:412
+msgid "Small"
+msgstr "Маленький"
+
+#: thumbview.cpp:413
+msgid "Very Small"
+msgstr "Очень маленький"
+
+#: thumbview.cpp:414
+msgid "Tiny"
+msgstr "Крошечный"
+
+#, fuzzy
+#~| msgid "New Folder"
+#~ msgid "folder"
+#~ msgstr "Новая папка"
+
+#, fuzzy
+#~| msgid "Image"
+#~ msgid "image"
+#~ msgstr "Изображение"
+
+#, fuzzy
+#~| msgid "Gallery"
+#~ msgid "Gallery %1 %2"
+#~ msgstr "Галерея"
+
+#~ msgid ""
+#~ "The classifier files for KADMOS could not be found.\n"
+#~ "OCR with KADMOS will not be possible!\n"
+#~ "\n"
+#~ "Change the OCR engine in the preferences dialog."
+#~ msgstr ""
+#~ "Файлы классификаторов KADMOS не найдены.\n"
+#~ "Распознавание текста через KADMOS невозможно!\n"
+#~ "\n"
+#~ "Измените движок распознавания в диалоге настроек."
+
+#~ msgid "Select the image sub-format"
+#~ msgstr "Дополнительные настройки формата"
+
+#, fuzzy
+#~ msgid "Do not ask again for the save format if it is defined."
+#~ msgstr "Не запрашивать тип формата, если он определён."
+
+#~ msgid ""
+#~ "The folder\n"
+#~ "%1\n"
+#~ " does not exist and could not be created;\n"
+#~ "please check the permissions."
+#~ msgstr ""
+#~ "Папка\n"
+#~ "%1\n"
+#~ " не существует и не может быть создана.\n"
+#~ "Проверьте права доступа."
+
+#~ msgid "Enter filename:"
+#~ msgstr "Имя файла:"
+
+#~ msgid "high (or true-) color image, not palleted"
+#~ msgstr "высококачественное цветное изображение без палитры"
+
+#~ msgid " image save OK      "
+#~ msgstr " изображение сохранено       "
+
+#~ msgid " permission error   "
+#~ msgstr " ошибка доступа              "
+
+#~ msgid " bad filename       "
+#~ msgstr " неверное имя файла          "
+
+#~ msgid " unknown error      "
+#~ msgstr " неизвестная ошибка          "
+
+#~ msgid " parameter wrong    "
+#~ msgstr " неверный параметр           "
+
+#~ msgid "That would result in the new filename: %1"
+#~ msgstr "Исправленное имя файла: %1"
+
+#~ msgid "Format changes of images are currently not supported."
+#~ msgstr "Изменение формата изображений пока не поддерживается."
+
+#~ msgid "Wrong Extension Found"
+#~ msgstr "Указано неверное расширение"
+
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgid "Stop the OCR Process"
+#~ msgstr "Остановить процесс распознавания"
+
+#~ msgid "<b>Starting Optical Character Recognition with %1</b><p>"
+#~ msgstr "<b>Запуск процесса распознавания текста через %1</b><p>"
+
+#~ msgid "OCR Post Processing"
+#~ msgstr "Завершающая обработка распознавания текста"
+
+#~ msgid "Enable spell-checking for validation of the OCR result"
+#~ msgstr "Включить проверку правописания результата распознавания"
+
+#~ msgid "Spell-Check Options"
+#~ msgstr "Настройка проверки правописания"
+
+#~ msgid ""
+#~ "GOCR is an Open Source project for optical character recognition.<P>The "
+#~ "author of gocr is <B>Joerg Schulenburg</B><BR>For more information about "
+#~ "gocr see <A HREF=http://jocr.sourceforge.net>http://jocr.sourceforge.net</"
+#~ "A>"
+#~ msgstr ""
+#~ "GOCR является проектом оптического распознавания текстов с открытым "
+#~ "исходным кодом. <P>Автор gocr - <B>Joerg Schulenburg</B>."
+#~ "<BR>Дополнительную информации о gocr вы можете получить по адресу <A "
+#~ "HREF=http://jocr.sourceforge.net>http://jocr.sourceforge.net</A>"
+
+#~ msgid "Using GOCR binary: "
+#~ msgstr "Использовать программу GOCR:"
+
+#~ msgid "KADMOS OCR/ICR"
+#~ msgstr "KADMOS OCR/ICR"
+
+#~ msgid ""
+#~ "This version of Kooka was linked with the <I>KADMOS OCR/ICR engine</I>, a "
+#~ "commercial engine for optical character recognition.<P>Kadmos is a "
+#~ "product of <B>re Recognition AG</B><BR>For more information about Kadmos "
+#~ "OCR see <A HREF=http://www.rerecognition.com>http://www.rerecognition."
+#~ "com</A>"
+#~ msgstr ""
+#~ "Данная версия Kooka собрана с поддержкой <I>движка KADMOS OCR/ICR</I>, "
+#~ "коммерческого движка оптического распознавания текста. <P>Kadmos является "
+#~ "продуктом компании <B>re Recognition AG</B><BR>За дополнительной "
+#~ "информацией по Kadmos OCR обратитесь по адресу <A HREF=http://www."
+#~ "rerecognition.com>http://www.rerecognition.com</A>"
+
+#~ msgid ""
+#~ "ocrad is a Free Software project for optical character recognition.<p>The "
+#~ "author of ocrad is <b>Antonio Diaz</b><br>For more information about "
+#~ "ocrad see <A HREF=\"http://www.gnu.org/software/ocrad/ocrad.html\">http://"
+#~ "www.gnu.org/software/ocrad/ocrad.html</A><p>Images should be scanned in "
+#~ "black/white mode for ocrad.<br>Best results are achieved if the "
+#~ "characters are at least 20 pixels high.<p>Problems arise, as usual, with "
+#~ "very bold or very light or broken characters, the same with merged "
+#~ "character groups."
+#~ msgstr ""
+#~ "ocrad является проектом оптического распознавания текстов с открытым "
+#~ "исходным кодом. <p>Автор ocrad - <b>Antonio Diaz</b>. <br>Дополнительную "
+#~ "информации об ocrad вы можете получить по адресу <A HREF=\"http://www.gnu."
+#~ "org/software/ocrad/ocrad.html\">http://www.gnu.org/software/ocrad/ocrad."
+#~ "html</A><p> Для распознавания изображения должны быть отсканированы в "
+#~ "чёрно-белом режиме. <br>Наилучшие результаты достигаются для символов "
+#~ "более 20 точек в высоту. <p>Проблемы возникают, как правило, с символами "
+#~ "очень жирного или очень тонкого начертания, экзотическими буквами или "
+#~ "символами, сливающимися друг с другом."
+
+#~ msgid ""
+#~ "The path to the ocrad binary is not configured yet.\n"
+#~ "Please go to the Kooka configuration and enter the path manually."
+#~ msgstr ""
+#~ "Путь к программе ocrad не установлен.\n"
+#~ "Укажите путь вручную в диалоге настройки Kooka."
+
+#~ msgid "Using ocrad binary: "
+#~ msgstr "Использовать программу ocrad:"
+
+#~ msgid "Mirror Image &Both Directions"
+#~ msgstr "Отра&зить горизонтально и вертикально"
+
+#~ msgid "Open Image in &Graphic Application..."
+#~ msgstr "Открыть для &редактирования..."
+
+#~ msgid "Enable All Warnings && Messages"
+#~ msgstr "Показывать все ошибки и предупреждения"
+
+#~ msgid "Save OCR Res&ult Text"
+#~ msgstr "Со&хранить результаты распознавания"
+
+#~ msgid "All messages and warnings will now be shown."
+#~ msgstr "Будут показаны все ошибки и предупреждения."
+
+#~ msgid "OCR Engine to Use"
+#~ msgstr "Использовать движок OCR"
+
+#~ msgid "KADMOS engine"
+#~ msgstr "движок KADMOS"
+
+#~ msgid "OCRAD engine"
+#~ msgstr "движок OCRAD"
+
+#~ msgid "GOCR OCR"
+#~ msgstr "распознавание через GOCR"
+
+#~ msgid "OCRAD OCR"
+#~ msgstr "распознавание через OCRAD"
+
+#~ msgid "KADMOS OCR"
+#~ msgstr "распознавание через KADMOS"
+
+#~ msgid "The KADMOS OCR engine is available"
+#~ msgstr "Движок распознавания KADMOS доступен"
+
+#~ msgid "The KADMOS OCR engine is not available in this version of Kooka"
+#~ msgstr "Движок распознавания KADMOS недоступен в этой версии Kooka"
+
+#~ msgid "Select the %1 binary to use:"
+#~ msgstr "Выберите программу %1:"
+
+#~ msgid ""
+#~ "Enter the path to %1, the optical-character-recognition command line tool."
+#~ msgstr "Укажите путь к программе %1"
+
+#~ msgid "Kooka Startup Preferences"
+#~ msgstr "Настройки запуска Kooka"
+
+#~ msgid ""
+#~ "Check this if you once checked 'do not show the scanner selection on "
+#~ "startup',\n"
+#~ "but you want to see it again."
+#~ msgstr ""
+#~ "Включите эту опцию, если вы отключили выбор сканера при запуске и желаете "
+#~ "включить диалог выбора при запуске программы снова."
+
+#~ msgid "Configure Image Save Assistant"
+#~ msgstr "Настройка мастера сохранения изображений"
+
+#~ msgid "Thumbnail Gallery View"
+#~ msgstr "Галерея уменьшенных копий"
+
+#~ msgid ""
+#~ "Here you can configure the appearance of the thumbnail view of your scan "
+#~ "picture gallery."
+#~ msgstr ""
+#~ "Здесь вы можете настроить внешний вид просмотра уменьшенных копий "
+#~ "сканированных изображений."
+
+#~ msgid "Thumbview Background"
+#~ msgstr "Фон"
+
+#~ msgid "Thumbnail Size"
+#~ msgstr "Размер уменьшенной копии"
+
+#~ msgid "Thumbnail Frame"
+#~ msgstr "Рамка"
+
+#~ msgid "Thumbnail maximum &width:"
+#~ msgstr "Максимальная &ширина:"
+
+#~ msgid "Thumbnail maximum &height:"
+#~ msgstr "Максимальная &высота:"
+
+#~ msgid "Thumbnail &frame width:"
+#~ msgstr "Толщина &рамки:"
+
+#~ msgid "Frame color &1: "
+#~ msgstr "Цвет рамки &1:"
+
+#~ msgid "Frame color &2: "
+#~ msgstr "Цвет рамки &2:"
+
+#~ msgid ""
+#~ "The OCR engine settings were changed.\n"
+#~ "Note that Kooka needs to be restarted to change the OCR engine."
+#~ msgstr ""
+#~ "Настройки движка распознавания изменены.\n"
+#~ "После этого нужно перезапустить Kooka для того, чтобы настройки движка "
+#~ "распознавания вступили в силу."
+
+#~ msgid "OCR Engine Change"
+#~ msgstr "Изменение настроек движка"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Просмотр изображения"
+
+#~ msgid "Gallery:"
+#~ msgstr "Галерея:"
+
+#~ msgid "OCR Result Text"
+#~ msgstr "Результат распознавания текста"
+
+#~ msgid ""
+#~ "Could not start OCR-Process.\n"
+#~ "Probably there is already one running."
+#~ msgstr ""
+#~ "Не удаётся запустить процесс распознавания текста.\n"
+#~ "Возможно, экземпляр этого процесса уже запущен."
+
+#~ msgid "Rotate image 180 degrees"
+#~ msgstr "Повернуть на 180 градусов"
+
+#~ msgid "Storing image changes"
+#~ msgstr "Сохранение изменений изображения"
+
+#~ msgid "Tool Views"
+#~ msgstr "Инструменты"
+
+#~ msgid "Show Image Viewer"
+#~ msgstr "Просмотр изображений"
+
+#~ msgid "Show Preview"
+#~ msgstr "Предпросмотр"
+
+#~ msgid "Show Thumbnail Window"
+#~ msgstr "Окно уменьшенных копий"
+
+#~ msgid "Show Scan Parameters"
+#~ msgstr "Параметры сканирования"
+
+#~ msgid "Kooka OCR Dictionary Check"
+#~ msgstr "Проверка словаря распознавания"
+
+#~ msgid ""
+#~ "Spell-checking cannot be started on this system.\n"
+#~ "Please check the configuration"
+#~ msgstr ""
+#~ "Не удаётся запустить проверку правописания на этой системе.\n"
+#~ "Проверьте настройки."
+
+#~ msgid "http://kooka.kde.org"
+#~ msgstr "http://kooka.kde.org"
+
+#~ msgid "Image Name"
+#~ msgstr "Имя"
+
+#~ msgid ""
+#~ "Cannot write this image format.\n"
+#~ "Image will not be saved."
+#~ msgstr ""
+#~ "Не удалось сохранить в этом формате.\n"
+#~ "Изображение не будет сохранено."
+
+#~ msgid ""
+#~ "Image file is write protected.\n"
+#~ "Image will not be saved."
+#~ msgstr ""
+#~ "Файл изображения доступен только для чтения.\n"
+#~ "Изображение не будет сохранено."
+
+#~ msgid ""
+#~ "Cannot save the image, because the file is local.\n"
+#~ "Kooka will support other protocols later."
+#~ msgstr ""
+#~ "Не удаётся сохранить изображение в локальном файле.\n"
+#~ "Kooka будет поддерживать другие протоколы в новых версиях."
+
+#~ msgid "Canceled by user"
+#~ msgstr "Прервано пользователем"
+
+#~ msgid "Note that changing these options will affect Kooka's next start!"
+#~ msgstr ""
+#~ "Изменения этих настроек вступят в силу только при следующем запуске "
+#~ "программы!"
