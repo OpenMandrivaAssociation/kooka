@@ -14,6 +14,7 @@ Source:		%{name}-%{version}.git%{git}.tar.bz2
 Source1:	%{name}-lang.tar.bz2
 # ROSA's translation update (29.01.2013)
 Source2:	%{name}-ru.po
+BuildRequires:	make
 BuildRequires:	kdelibs4-devel
 BuildRequires:	pkgconfig(libgphoto2)
 BuildRequires:	pkgconfig(libtiff-4)
